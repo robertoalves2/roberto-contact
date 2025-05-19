@@ -15,7 +15,7 @@
 <body>
 
     <div class="container">
-        <img src="sua-foto.jpg" alt="Foto de Roberto Alves" width="150" style="border-radius: 50%;">
+        <img src="FotoRobertoAlves.webp" alt="Foto de Roberto Alves" width="150" style="border-radius: 50%;">
         <h1>Roberto Alves</h1>
         <p>Profissional de TI | Infraestrutura | Segurança da Informação</p>
 
@@ -25,16 +25,18 @@
         <!-- Formulário Netlify -->
         <div class="form-container">
             <h2>Entre em contato</h2>
-            <form name="contact" method="POST" data-netlify="true">
+            <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
                 <p><label>Nome: <input type="text" name="name" required></label></p>
                 <p><label>Email: <input type="email" name="email" required></label></p>
+                <p><label>Assunto: <input type="text" name="subject" required></label></p>
                 <p><label>Mensagem: <textarea name="message" required></textarea></label></p>
+                <p style="display: none;"><label>Não preencha este campo: <input name="bot-field"></label></p>
                 <p><button type="submit">Enviar</button></p>
             </form>
         </div>
     </div>
 
-    <!-- Créditos -->
+    <!-- Rodapé-créditos -->
     <footer>
         <p>By <a href="https://www.linkedin.com/in/robertoads" target="_blank">Roberto Alves</a></p>
     </footer>
