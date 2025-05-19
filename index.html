@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Roberto Alves</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; background-color: #f4f4f4; }
+        .container { max-width: 500px; margin: auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); }
+        .btn { display: inline-block; padding: 12px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px; font-size: 16px; }
+        .form-container { margin-top: 20px; }
+        footer { margin-top: 30px; font-size: 14px; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="sua-foto.jpg" alt="Foto de Roberto Alves" width="150" style="border-radius: 50%;">
+        <h1>Roberto Alves</h1>
+        <p>Profissional de TI | Infraestrutura | Segurança da Informação</p>
+
+        <!-- Botão para enviar e-mail diretamente -->
+        <a class="btn" href="mailto:robertoalves@tuta.io">Enviar E-mail</a>
+
+        <!-- Formulário Netlify -->
+        <div class="form-container">
+            <h2>Entre em contato</h2>
+            <form name="contact" method="POST" data-netlify="true">
+                <p><label>Nome: <input type="text" name="name" required></label></p>
+                <p><label>Email: <input type="email" name="email" required></label></p>
+                <p><label>Mensagem: <textarea name="message" required></textarea></label></p>
+                <p><button type="submit">Enviar</button></p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Rodapé com seu nome e link para LinkedIn -->
+    <footer>
+        <p>By <a href="https://www.linkedin.com/in/seuusuario" target="_blank">Roberto Alves</a></p>
+    </footer>
+
+</body>
+</html>
