@@ -1,20 +1,20 @@
-📮 Formulário de Contato Personalizado via HTML + Netlify Forms
-Este projeto surgiu da necessidade de adicionar um CTA funcional de e-mail no perfil do LinkedIn — algo que a plataforma não permite nativamente.
+# 📮 Formulário de Contato Personalizado via HTML + Netlify Forms
 
-Como alternativa às ferramentas prontas como Linktree, desenvolvi esta landing page simples e eficaz usando apenas HTML + CSS, hospedada no GitHub e Netlify.
+Sempre gostei de solucionar problemas, principalmente quando envolvem tecnologia e inovação. Este projeto nasceu da limitação do LinkedIn em permitir a inclusão de um botão de e-mail clicável como CTA direto no perfil.
 
-✨ Funcionalidades
-Botão mailto: direto para contato.
+Minha primeira ideia foi usar Linktree ou ferramentas similares, mas preferi desenvolver uma solução personalizada, funcional e segura — que refletisse meu conhecimento técnico e fosse fácil de replicar por outros profissionais.
 
-Netlify Forms integrado, sem necessidade de backend.
+## ✨ Características
+- `mailto:` como CTA direto, facilitando o contato profissional.
+- Integração com **Netlify Forms**, sem depender de backend ou JavaScript.
+- **Proteção contra spam** com honeypot embutido no formulário.
+- **Design responsivo**, otimizado para mobile e desktop.
+- **Código documentado**, com comentários que facilitam adaptações e manutenção futura.
 
-Proteção contra spam via honeypot.
+## 🚀 Objetivo
+Entregar uma solução prática e elegante para profissionais que desejam disponibilizar um formulário de contato diretamente ligado ao LinkedIn — sem complexidade ou dependência de serviços externos.
 
-Design responsivo para mobile e desktop.
+## 💡 Aprendizado
+A tecnologia pode ser simples e eficaz. Este projeto é uma prova de que soluções enxutas podem gerar grande impacto quando são bem aplicadas.
 
-Código limpo e comentado para facilitar manutenção e adaptação.
-
-🚀 Objetivo
-Oferecer uma solução leve, segura e replicável por qualquer profissional que deseje criar seu próprio formulário de contato personalizado — sem depender de JavaScript ou servidores externos.
-
-🔗 Veja em funcionamento: contato-robertoalves.netlify.app
+🔗 Acesse o site: [contato-robertoalves.netlify.app](https://contato-robertoalves.netlify.app)
